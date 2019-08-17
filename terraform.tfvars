@@ -1,0 +1,5 @@
+start_schedule="0 8 * * 1-5"
+time_zone="UTC"
+stop_schedule="0 18 * * 1-5"
+start_filter_data="(labels.env=test) AND (status=STOPPED)"
+stop_filter_data="(labels.env=test) AND (status=RUNNING)"
