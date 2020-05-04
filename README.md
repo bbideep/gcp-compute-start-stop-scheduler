@@ -1,6 +1,6 @@
 # gcp-compute-start-stop-scheduler
 
-Google Cloud Compute start stop Cloud Functions (python). This Terraform code does the following -
+Google Cloud Compute start stop Cloud Functions (Python 3.7). This Terraform code does the following -
 
 * Creates a Cloud Storage bucket.
 * Packages the cloud function code to zip files.
